@@ -1,0 +1,225 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{article}
+\usepackage{fancyhdr}
+\usepackage{pslatex}
+\usepackage{epsfig}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[hidelinks]{hyperref}%renewcommand{\topfraction}{1.0}
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\textfraction}{0.0}
+\setlength {\textwidth}{6.6in}
+\hoffset=-1.0in
+\oddsidemargin=1.00in
+\marginparsep=0.0in
+\marginparwidth=0.0in                                                                               
+\setlength {\textheight}{9.0in}
+\voffset=-1.00in
+\topmargin=1.0in
+\headheight=0.0in
+\headsep=0.00in
+\footskip=0.50in                                         
+\setcounter{page}{1}
+\begin{document}
+\def\pos{\medskip\quad}
+\def\subpos{\smallskip \qquad}
+\newfont{\nice}{cmr12 scaled 1250}
+\newfont{\name}{cmr12 scaled 1080}
+\newfont{\swell}{cmbx12 scaled 800}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+{\Large
+PHYS 20323/60323: Fall 2025 - LaTeX Example
+}\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% {\large Project: Your Name Here}\\\vskip0.25in
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section Heading
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \noindent {\bf PROJECT INFORMATION:} \\
+
+% Write your text here
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section Heading
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \vskip0.1in
+% \noindent {\bf PURPOSE:} \\
+
+% Write your text here
+
+% You can use superscripts (m s$^{-1}$) or subscripts (M$_{*}$). 
+\begin{enumerate}
+    \item At time t = 0 a particle is represented by the wave function
+
+\begin{align*}
+    \Psi(x)=\begin{cases}
+        A{x\over a}, & 0\le x\le a\\
+        A{(b-x)\over (b-a)}, & a\le x \le b\\
+        0, & \text{otherwise}
+    \end{cases}
+\end{align*}
+where $A$, $a$, and $b$, are constants.
+
+\begin{itemize}
+    \item[(a)] (3.3 points) Normalize $\Psi$ (i.e., find A terms of a and b).
+    \item[(b)] (3.3 points) Where is the particle likely to be found at $t = 0$?.
+    \item[(c)] (3.4 points) What is the expectation value of $x$?. 
+\end{itemize}
+
+\item \textbf{The following questions refer to stars in the Table below}.\\
+\textit{Note: There may be multiple answers.}
+
+\begin{center}
+\begin{tabular}{|l|c|r|r|r|r|r|}\hline
+Name & Mass & Luminosity & Lifetime & Temperature & Radius & Variable \\\hline
+$\delta$ Scu.   & $2.0\; M_\odot$   &    & $5.0\times10^8$ years &  & $2.0\; R_\odot$ & Y \\ \hline
+$\gamma$ Del.   & $0.7\; M_\odot$  & & $4.5\times 10^{10}$ years & $5000$ K & & N   \\ \hline
+$\beta$ Cyg.   & $1.3\; M_\odot$   & $3.5\; L_\odot$ &  & & &Y   \\\hline
+$\eta$ Car. & $60.\; M_\odot$& $10^6\; L_\odot$ & $8.0\times10^5$ years & & &Y   \\\hline
+$\varepsilon$ Eri. & $6.0\; M_\odot$ & $10^3\; L_\odot$ & & 20,000 K & &N\\\hline
+$\alpha$ Cen. & $1.0\; M_\odot$ & & &6000 K & $1.0\; R_\odot$ & N\\\hline
+\end{tabular}\vskip 0.2in
+\end{center}
+
+\begin{itemize}
+    \item[(a)] (4 points) Which of these stars will produce a planetary nebula.
+    \item[(b)]  (4 points) Elements heavier than \texttt{Carbon} will be produced in which stars.
+\end{itemize}
+
+\item An electron is found to be in the spin state (in the $z$-basis): $\chi=A\begin{pmatrix}
+    3i\\4
+\end{pmatrix}$
+
+\begin{itemize}
+    \item[(a)] (5 points)  Determine the possible values of A such that the state is normalized.
+    \item[(b)] (5 points) Find the expectation values of the operators {\color{red}$S_x$}, {\color{purple}$S_y$}, {\color{orange}$S_z$}, $\Vec{S}^2$.
+\end{itemize}
+
+The matrix representations in the $z$-basis for the components of electron spin operators are
+given by:
+
+\vspace{0.5cm}
+$\color{red}{\textbf{S}_\textbf{x}={\hbar\over 2}\begin{pmatrix}
+    0&1 \\ 1&0
+\end{pmatrix};} \qquad\color{purple}{\textbf{S}_\textbf{y}={\hbar\over 2}\begin{pmatrix}
+    0&-i \\ i&0
+\end{pmatrix};} 
+\qquad\color{orange}{\textbf{S}_\textbf{z}={\hbar\over 2}\begin{pmatrix}
+    1&0 \\ 0&-1
+\end{pmatrix}}$
+
+
+
+
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bullet Point & Numbered list - lists can also be nested as below
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section Heading
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Figures can be inserted
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{figure}[h!]
+% \begin{center}
+% \includegraphics{hydrogen.eps}
+% \end{center}
+% \caption{This is the energy levels for the Hydrogen atom}
+% \end{figure}
+% \begin{figure}[h]
+% \begin{center}
+% \includegraphics[scale=0.6,angle=90]{hydrogen.eps} 
+% \end{center}
+% \caption{This is the energy levels for the Hydrogen atom sideways
+% \label{figure:map}}
+% \end{figure}
+
+% \clearpage
+% \noindent {\bf ANALYSIS (and math):} \\
+
+% And go into Math mode $A_x = \int_{n-1}^{n+10}  f(x) \mathrm{d}x$ 
+% in the normal text or insert an equation:
+% \begin{equation}
+% 	F = ma \\
+% 	   =m \frac{dv}{dt} 
+% \end{equation}
+
+
+% or if you want to go wild:
+% \begin{equation}
+% \prod_{j\ge0}\left( \sum_{k\ge0} a_{jk}z^k \right) = \sum_{n\ge0} z^n 
+% \left( \sum_{k_0,k_1\ldots\ge0 \atop k_0+k_1\cdots=0} a_{0k_0} a_{1k_1}\ldots \right)
+% \end{equation}
+% and continue your text.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section Heading
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tables are created easily
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{center}
+% \begin{tabular}{|l|crrrr|}\hline\hline
+% Header 1 & Header 2 & Header 3 & temp & temp &\\\hline\hline
+% Data 1a   & Data 2a   &  Data 3a  & temp & temp &  \\
+% Data 1b   & Data 2b  &  Data 3b & temp & temp &   \\
+% Data 1c   & Data 2c   &  Data 3c & temp & temp &   \\\hline
+% \end{tabular}\vskip 0.2in
+% \end{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section Heading
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \vskip0.1in
+% \noindent {\bf CONCLUSION:}\\
+
+% Write your text here.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{document}
